@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--title', required=True)
 parser.add_argument('--body', required=True)
 parser.add_argument('--level', choices=['low','medium','high'], default='high')
+parser.add_argument('--reqid', required=False, default=None)
 args = parser.parse_args()
 
 entry = {
@@ -20,10 +21,11 @@ entry = {
     'title': args.title,
     'body': args.body,
     'level': args.level,
+    'request_id': args.reqid,
 }
 with LOG.open('a', encoding='utf-8') as fh:
     fh.write(str(entry) + '\n')
 
 # Print a Telegram-ready payload (text + suggested reply tokens)
-payload = f"APPROVAL REQUEST ({args.level.upper()})\n{args.title}\n\n{args.body}\n\nReply with: Allow Once / Allow Always / Deny"
+payload = f"APPROVAL REQUEST ({args.level.upper()})\n{args.title}\n\n{args.body}\n\nRequest ID: {args.reqid}\n\nReply with: Allow Once / Allow Always / Deny"
 print(payload)

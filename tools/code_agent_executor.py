@@ -85,10 +85,18 @@ def request_and_wait_approval(title: str, body: str, timeout: int = 300) -> str:
     Returns the response string (Allow Once / Allow Always / Deny) or empty if timed out.
     """
     request_id = f"REQ-{uuid.uuid4().hex[:8]}"
-    # log the request via approval_telegram helper
-    # For now we append to approvals.log via approval_telegram.py
+    # log the request via approval_telegram helper (include request_id)
     from subprocess import run
-    run(["python3", str(Path(__file__).resolve().parent / 'approval_telegram.py'), "--title", title, "--body", body])
+    run([
+        "python3",
+        str(Path(__file__).resolve().parent / 'approval_telegram.py'),
+        "--title",
+        title,
+        "--body",
+        body,
+        "--reqid",
+        request_id,
+    ])
 
     # Poll for a response
     started = time.time()
