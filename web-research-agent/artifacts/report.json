@@ -1,0 +1,75 @@
+{
+  "prompt": "Latest EU AI Act risk management updates (March 2026)",
+  "depth": "quick",
+  "findings": [
+    {
+      "title": "EU AI Act News 2026 \u2014 Critical Updates & Enforcement Guide",
+      "insight": "Here is a concise summary of the text:\nThe EU AI Act is a regulation that sets out a complete legal framework for the development, deployment, and use of artificial intelligence (AI) in the European Union. The regulation has been in effect since February 2025 and will become fully applicable on August 2, 2026. The Act classifies every AI system by risk level before it can be put into use, and businesses that deploy AI in high-stakes contexts such as hiring, healthcare, and law enforcement must meet strict compliance requirements. The regulation applies to businesses outside of Europe if their AI systems affect people in the EU.",
+      "citation_id": "[1]"
+    },
+    {
+      "title": "AI Risk & Compliance 2026: Enterprise Governance Overview",
+      "insight": "Here is a concise summary of the article:\nThe article highlights the importance of AI governance and compliance in 2026, emphasizing that AI risks have matured from theoretical discussions to enforceable legal requirements. It provides a roadmap for organizations to achieve AI governance, including creating an AI inventory, conducting risk assessments, implementing technical controls, and establishing a governance structure. The article also emphasizes the need for operational controls, not just policies, and the importance of documentation as evidence. Additionally, it notes the significance of vendor management, board oversight, and the need to view governance as a competitive advantage rather than a hurdle.",
+      "citation_id": "[2]"
+    },
+    {
+      "title": "EU AI Act 2026 Updates: Compliance Requirements and Business ...",
+      "insight": "Here is a concise summary of the text in 2-3 sentences:\nThe EU Artificial Intelligence Act will become fully applicable on August 2, 2026, with some provisions applying earlier or being phased in over the next 6-36 months. The Act sets out risk-based rules for AI developers and deployers, imposing obligations and potential penalties for non-compliance. Key deadlines include February 2, 2025, and August 2, 2025, with full applicability coming on August 2, 2026.",
+      "citation_id": "[3]"
+    },
+    {
+      "title": "What the EU AI Act Means for US Enterprises with European Exposure",
+      "insight": "Here is a concise summary of the article in 1-3 sentences:\nThe EU AI Act aims to regulate the development and use of artificial intelligence (AI) in the European Union. The act requires AI systems to be classified as high-risk, substantial-risk, or minimal-risk based on their potential impact on individuals and society.",
+      "citation_id": "[4]"
+    },
+    {
+      "title": "EU AI Act 2026: New Obligations for Companies - heyData",
+      "insight": "Here is a concise summary of the text (1-3 sentences):\nThe EU AI Act will introduce binding rules for developing, deploying, and supervising AI systems across the European Union, with key requirements becoming fully enforceable in August 2026. Companies must establish governance structures, perform risk assessments, and keep documentation for AI systems, with high-risk AI systems facing strict transparency and monitoring obligations. By 2026, companies must identify and evaluate all AI systems in use, put risk management and documentation in place, and define responsibilities and oversight processes.",
+      "citation_id": "[5]"
+    }
+  ],
+  "citations": [
+    {
+      "cid": "[1]",
+      "title": "EU AI Act News 2026 \u2014 Critical Updates & Enforcement Guide",
+      "url": "https://theradarai.com/eu-ai-act-news-2026/",
+      "accessed": "2026-03-17",
+      "quote": "# EU AI Act News 2026 \u2014 Latest Updates, Enforcement & What It Means for Your Business",
+      "domain": "theradarai.com"
+    },
+    {
+      "cid": "[2]",
+      "title": "AI Risk & Compliance 2026: Enterprise Governance Overview",
+      "url": "https://secureprivacy.ai/blog/ai-risk-compliance-2026",
+      "accessed": "2026-03-17",
+      "quote": "# AI Risk & Compliance in 2026: What Enterprises Must Prepare For",
+      "domain": "secureprivacy.ai"
+    },
+    {
+      "cid": "[3]",
+      "title": "EU AI Act 2026 Updates: Compliance Requirements and Business ...",
+      "url": "https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks",
+      "accessed": "2026-03-17",
+      "quote": "Following the transitional periods established by the European Parliament and the European Commission, the remaining provisions of the Artificial Intelligence Act will become applicable on 2 August 2026.",
+      "domain": "legalnodes.com"
+    },
+    {
+      "cid": "[4]",
+      "title": "What the EU AI Act Means for US Enterprises with European Exposure",
+      "url": "https://ajithp.com/2026/03/09/eu-ai-act-us-enterprise-compliance-guide/",
+      "accessed": "2026-03-17",
+      "quote": "**Jurisdiction follows the output, not the infrastructure.**Under Article 2(1)(c), the EU AI Act applies to any US enterprise whose AI produces output used by EU customers, employees, or counterparties. The IAPP confirmed that this extraterritorial reach is broader than that of the GDPR.**Two obligations are already enforceable.**Prohibited AI practices and AI literacy requirements under Article 4 both took effect in February 2025. A third, transparency disclosures under Article 50, take effect on August 2, 2026. Most US enterprises have not started Article 4 training programs. August 2026 is five months away.**The 40% classification problem.**Credit scoring, patient triage, and employment screening are explicitly high-risk. Fraud detection and algorithmic trading are explicitly not. Forty percent of enterprise AI systems fall into neither category cleanly, and for most of them, proving a valid exception costs more than building to the higher standard.**Penalty exposure is three-layered.**Regulatory fines reach 7% of worldwide annual turnover, calculated against the global parent under ECJ precedent. The Product Liability Directive adds strict liability for non-compliant AI. Major insurers are moving to exclude AI-related liabilities from standard policies. All three can land simultaneously.**Compliance is an engineering decision, not a documentation exercise.**The firms that reach readiness fastest are treating it that way, adopting human oversight practices, building documentation-as-code, and designing logging architecture before deployment. Firms that defer discovery, 12 to 18 months in, whose conformity evidence describes a system that no longer exists.",
+      "domain": "ajithp.com"
+    },
+    {
+      "cid": "[5]",
+      "title": "EU AI Act 2026: New Obligations for Companies - heyData",
+      "url": "https://heydata.eu/en/magazine/how-the-eu-ai-act-will-reshape-corporate-compliance-starting-in-2026/",
+      "accessed": "2026-03-17",
+      "quote": "# How the EU AI Act Will Reshape Corporate Compliance Starting in 2026",
+      "domain": "heydata.eu"
+    }
+  ],
+  "warnings": [],
+  "required_sources_missing": []
+}
